@@ -1,0 +1,481 @@
+body {
+    background-color: #E0E0E0;
+}
+
+.button, h1, h2, h3, h4 {
+    font-family: copperplate, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+p, a {
+    font-family: copperplate-condensed, serif;
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+/* Navbar background color */
+.bgTransparent {
+    background-color: rgba(210, 213, 219, 0.9);
+}
+/* List formatting */
+ul, ol {
+    list-style: none;
+  }
+
+ul, ol {
+    padding-inline-start: 1px!important;
+}  
+  
+ul li::before {
+    content: "\2022";
+    color: #1C25FF;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -2em;
+  }
+
+li {
+    font-family: copperplate, serif;
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    margin-left: 15px;
+}
+
+
+/* Navbar */
+.navbar ul li::before {
+    content: none;
+}
+
+/* Buttons */
+
+.deepshd {
+    color: #e0dfdc;
+    letter-spacing: .01em;
+    text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.9);
+  }
+
+.button {
+    border-radius: 5px;
+    margin-top: 25px;
+    padding: 5px;
+    width: 280px;
+    color: white;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button img {
+    max-width: 50px;
+}
+
+.blueBtn {
+    background-color: #1C25FF;
+}
+
+.greenBtn {
+    background-color: #00A539;
+    margin: 5px;
+}
+
+/* Header */
+.bg-image {
+      /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header h1 {
+    margin-top: 30px;
+    font-size: 100px;
+    text-shadow: 1px 1px 15px rgba(0, 0, 0, 0.6);
+}
+
+@media only screen and (max-width: 770px) {
+    header h1 {
+        font-size: 80px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    header h1 {
+        font-size: 40px;
+    }
+}
+
+
+
+/* Sub Heading Section */
+.subHeader {
+    background-color: #2C2C2C;
+    min-height: 350px;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    padding: 15px 2px;
+}
+
+.subHeader h2, .subHeader h4 {
+    color: #1C25FF;
+    margin-top: 15px;
+    text-shadow: 1px 1px 5px black;
+}
+@media only screen and (max-width: 575px) {
+    .subHeader {
+        text-align: center!important;
+    }
+}
+
+.portrate img {
+    /* border: 1px solid #080818; */
+    filter: drop-shadow(5px 5px 5px #0001225d);
+    border-width: 7px;
+    border-radius: 1px;
+    height: 300px;
+    max-width: 200px;
+    object-fit: cover;
+    
+}
+
+/* Images */
+.headerImg {
+    background-image: -webkit-image-set(
+        url("/img/hp/HHmainheader_770w.jpg") 1x,
+        url("/img/hp/HHmainheader_1200w.jpg") 2x,
+        url("/img/hp/HHmainheader_1750w.jpg") 3x,
+        url("/img/hp/HHmainheader_2500w.jpg") 4x
+        );
+      background-image: image-set(
+        url("/img/hp/HHmainheader_770w.jpg") 1x,
+        url("/img/hp/HHmainheader_1200w.jpg") 2x,
+        url("/img/hp/HHmainheader_1750w.jpg") 3x,
+        url("/img/hp/HHmainheader_2500w.jpg") 4x
+        );
+}
+.autoImage {  
+    background-image: -webkit-image-set(
+        url("/img/hp/AutoInsur_500w.jpg") 1x,
+        url("/img/hp/AutoInsur_770w.jpg") 2x,
+        url("/img/hp/aiStretching_1200w.jpg") 3x);
+      background-image: image-set(
+        url("/img/hp/AutoInsur_500w.jpg") 1x,
+        url("/img/hp/AutoInsur_770w.jpg") 2x,
+        url("/img/hp/AutoInsur_1200w.jpg") 3x);
+}
+
+.therapeuticImg {
+    background-image: -webkit-image-set(
+        url("/img/hp/Therapeutic_500.jpg") 1x,
+        url("/img/hp/Therapeutic_770.jpg") 2x,
+        url("/img/hp/Therapeutic_1200w.jpg") 3x);
+      background-image: image-set(
+        url("/img/hp/Therapeutic_500.jpg") 1x,
+        url("/img/hp/Therapeutic_770.jpg") 2x,
+        url("/img/hp/Therapeutic_1200w.jpg") 3x);
+}
+
+.myofascialImg {
+    background-image: -webkit-image-set(
+        url("/img/hp/Myofascial_500w.jpg") 1x,
+        url("/img/hp/Myofascial_770w.jpg") 2x,
+        url("/img/hp/Myofascial_1200w.jpg") 3x);
+      background-image: image-set(
+        url("/img/hp/Myofascial_500w.jpg") 1x,
+        url("/img/hp/Myofascial_770w.jpg") 2x,
+        url("/img/hp/Myofascial_1200w.jpg") 3x);
+}
+
+.aisImg {
+    background-image: -webkit-image-set(
+        url("/img/hp/aiStretching_500w.jpg") 1x,
+        url("/img/hp/aiStretching_770w.jpg") 2x,
+        url("/img/hp/aiStretching_1200w.jpg") 3x);
+      background-image: image-set(
+        url("/img/hp/aiStretching_500w.jpg") 1x,
+        url("/img/hp/aiStretching_770w.jpg") 2x,
+        url("/img/hp/aiStretching_1200w.jpg") 3x);
+}
+
+.lymphaticImg {
+    background-image: -webkit-image-set(
+        url("/img/hp/Lymphatic_500w.jpg") 1x,
+        url("/img/hp/Lymphatic_770w.jpg") 2x,
+        url("/img/hp/Lymphatic_1200w.jpg") 3x);
+      background-image: image-set(
+        url("/img/hp/Lymphatic_500w.jpg") 1x,
+        url("/img/hp/Lymphatic_770w.jpg") 2x,
+        url("/img/hp/Lymphatic_1200w.jpg") 3x);
+}
+
+.cranioImg {
+    background-image: -webkit-image-set(
+        url("/img/hp/CranioSacral_500w.jpg") 1x,
+        url("/img/hp/CranioSacral_770w.jpg") 2x,
+        url("/img/hp/CranioSacral_1200w.jpg") 3x);
+      background-image: image-set(
+        url("/img/hp/CranioSacral_500w.jpg") 1x,
+        url("/img/hp/CranioSacral_770w.jpg") 2x,
+        url("/img/hp/CranioSacral_1200w.jpg") 3x);
+}
+
+.prenatalImg {
+    background-image: -webkit-image-set(
+        url("/img/hp/PreNatal_500w.jpg") 1x,
+        url("/img/hp/PreNatal_770w.jpg") 2x,
+        url("/img/hp/PreNatal_1200w.jpg") 3x);
+      background-image: image-set(
+        url("/img/hp/PreNatal_500w.jpg") 1x,
+        url("/img/hp/PreNatal_770w.jpg") 2x,
+        url("/img/hp/PreNatal_1200w.jpg") 3x);
+}
+
+.topic-image, .lgTopic-image, .lymphImg {
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 48% auto;
+
+}
+
+.rightAlnImg {
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 50% auto; 
+} 
+
+@media only screen and (max-width: 1000px) {
+    .rightAlnImg, .topic-image {
+        background-size: 40% auto;
+    
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .lgTopic-image, .lymphImg {
+        background-size: 40% auto;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .rightAlnImg, .topic-image, .lgTopic-image {
+        background-position: center;
+        background-size: 100% auto;
+        max-height: 280px;
+        background-attachment: scroll;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .lymphImg {
+        background-position: top center;
+        background-size: 100% auto;
+        max-height: 280px;
+        background-attachment: scroll;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .rightAlnImg, .topic-image, .lgTopic-image, .lymphImg {
+        max-height: 240px;
+    }
+}
+
+/* Basic Section Padding */
+.topicContent {
+    padding-top: 40px;
+}
+
+@media only screen and (max-width: 770px) {
+    .topicContent{
+        padding-top: 300px;
+    }
+}
+
+@media only screen and (max-width: 999px) {
+    .min30margin {
+        margin-top: -40px;
+    }
+    .btmMrgn {
+        margin-bottom: -25px;
+    }
+}
+
+/* Highlighted Section */
+.focusSection {
+    background-color: #A8A8A8;
+    min-height: 1150px;
+    height: auto;
+}
+
+@media only screen and (max-width: 770px) {
+    .focusSection  {
+        min-height: 1520px;
+        text-align: center!important;
+    }  
+}
+
+
+@media only screen and (max-width: 500px) {
+    .focusSection  {
+        min-height: 1600px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .focusSection {
+        min-height: 1750px;
+    }
+}
+
+.reviewSec {
+    padding-top: 15px;
+    margin: 50px 15px;
+}
+
+.reviewSec img {
+    margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 770px) {
+    .reviewSec {
+        margin: 5px;
+    }
+}
+
+.grayBox {
+    background-color: #2C2C2C;
+    padding: 15px 55px;
+    color: #E0E0E0;
+    margin: 15px;
+    
+}
+
+.formLinks {
+    align-content: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 990px) {
+    .reviewSec { display: flex; flex-flow: colum; }
+    .grayBox { order: 1;}
+    .formLinks { order: 2;}
+}
+
+@media screen and (max-width: 770px) {
+    .reviewSec { display: flex; flex-flow: colum; }
+    .grayBox { order: 2;}
+    .formLinks { order: 1;}
+}
+
+/* Main Sections */
+.topicSection, .lgTopicSection, .smTopicSection {
+    min-height: 700px;
+    height: 100%;
+    padding-top: 20px;
+}
+
+@media only screen and (max-width: 770px) {
+    .smTopicSection {
+        min-height: 1120px;
+        padding-top: 0;
+        text-align: center!important;
+    }
+    .topicSection {
+        min-height: 1275px;
+        padding-top: 0;
+        text-align: center!important;
+    }
+    .lgTopicSection {
+        min-height: 1475px;
+        padding-top: 0;
+        text-align: center!important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .smTopicSection {
+        min-height: 1200px;
+    }
+    .topicSection {
+        min-height: 1400px;
+    }
+    .lgTopicSection {
+        min-height: 1500px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .smTopicSection {
+        min-height: 1300px;
+    }
+    .topicSection {
+        min-height: 1500px;
+    }
+    .lgTopicSection {
+        min-height: 1700px;
+    }
+}
+
+/* Payment Section */
+.paySection {
+    background-color: #2C2C2C;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    text-align: center;
+}
+
+.paySection h3 {
+    margin-top: 50px;
+}
+.paySection h4 {
+    margin: 20px;
+}
+
+.payIcon img {
+    max-width: 50px;
+}
+
+/* Location */
+.location p {
+    margin-top: 20px;
+}
+
+/* Contact Section */
+.contactSection {
+    height: 100%;
+    padding: 15px;
+    text-align: center;
+    margin: 25px 5px;
+}
+
+.contactSection h2 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.contactIcon img {
+    max-width: 35px;
+    margin: 10px;
+}
+
+
+/* Footer */
+footer {
+    background-color: #2C2C2C;
+    height: 200px;
+    color: rgb(255, 255, 255);
+}
+
+footer h2 {
+    margin-top: 15px;
+}
+
+footer img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
